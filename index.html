@@ -8,38 +8,41 @@
     body {
       font-family: Arial, sans-serif;
       background: linear-gradient(to bottom right, #e0ffe0, #ffffff);
-      text-align: center;
       color: #333;
+      text-align: center;
+      margin: 0;
       padding: 20px;
+      height: 100vh;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     h1 {
-      font-size: 30px;
+      font-size: 22px;
       color: #1a8917;
-      margin-bottom: 15px;
+      margin: 10px 0;
     }
-    .emoji {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    .descripcion {
-      font-size: 18px;
-      margin: 20px 0;
-      line-height: 1.6;
+    p {
+      font-size: 16px;
+      margin: 8px 0;
+      line-height: 1.4;
     }
     .bancos img {
-      width: 80px;
-      margin: 10px;
+      width: 60px;
+      margin: 5px;
+      vertical-align: middle;
     }
     .btn-verde {
       background-color: #25d366;
       color: white;
-      padding: 15px 25px;
-      font-size: 18px;
+      padding: 12px 20px;
+      font-size: 16px;
       border: none;
-      border-radius: 10px;
+      border-radius: 8px;
       text-decoration: none;
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 12px;
       cursor: pointer;
     }
     .btn-verde:hover {
@@ -49,28 +52,20 @@
 </head>
 <body>
 
-  <div class="emoji">📱💸</div>
-  <h1>¡Gana dinero fácil desde casa!</h1>
+  <h1>📲 Gana dinero desde casa</h1>
 
-  <p class="descripcion">
-    ✅ Se te pagará por:<br>
-    - Ver videos<br>
-    - Llenar encuestas<br>
-    - Registrarte en páginas web<br>
-    - Descargar apps<br><br>
-    Puedes ganar desde <strong>50 pesos por encuesta</strong> completada<br>
-    y <strong>25 pesos por cada video visto</strong>.<br>
-  </p>
+  <p>✅ Te pagamos por:</p>
+  <p>Ver videos, llenar encuestas, registrarte y descargar apps.</p>
+  <p>💰 Desde <strong>50 pesos por encuesta</strong> y <strong>25 por video</strong>.</p>
 
-  <div class="emoji">🏦 Métodos de Retiro</div>
+  <p>🏦 Métodos de retiro:</p>
   <div class="bancos">
-    <img src="https://i.imgur.com/b7OnxHa.png" alt="BHD" />
-    <img src="https://i.imgur.com/kkTOL7K.png" alt="Popular" />
-    <img src="https://i.imgur.com/8w3K6LB.png" alt="Banreservas" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Logo_BHD_Le%C3%B3n.png" alt="BHD">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Logo_Banco_Popular_Dominicano.png" alt="Popular">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Banreservas_logo.png" alt="Banreservas">
   </div>
 
-  <p><strong>El primer paso es completar una tarea simple. Haz clic en el botón de abajo para continuar.</strong></p>
-
+  <p><strong>Haz clic en continuar para comenzar tu primera tarea.</strong></p>
   <a class="btn-verde" href="TU_LINK_AQUI" target="_blank">▶ Continuar</a>
 
 </body>
